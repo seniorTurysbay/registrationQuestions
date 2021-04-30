@@ -1,0 +1,125 @@
+.sidebar
+  position: fixed
+  top: 0
+  left: 0
+  height: 100%
+  width: 64px
+  background: #202531
+  //z-index: 1
+  //overflow: hidden
+  &__circle
+    width: 40px
+    margin: 16px auto
+    height: 40px
+    background-color: #3F4551
+    border-radius: 100%
+    button
+      @include btn
+      span
+        display: block
+        margin: 12px auto
+        color: #949DA8
+        font-size: 11px
+      img
+        display: block
+        margin: 8px 2px
+.right-content
+  position: absolute
+  left: 64px
+.header
+  display: flex
+  width: 100%
+  padding: 24px 0 24px 236px
+  border-bottom: 1px solid #E9ECF5
+  align-items: center
+  &__block
+    display: flex
+    align-items: center
+    &__title
+      color: #202531
+      font-size: 13px
+      text-align: center
+      margin-left: 13px
+    &__icon
+      margin-left: 25px
+  &__notification-icon
+    margin: 0 35px 0 316px
+  &__vert-border
+    height: 32px
+    width: 1px
+    background-color: #E9ECF5
+  &__user
+    display: flex
+    align-items: center
+    justify-content: space-evenly
+    &__descr
+      &__name
+        @include userBlock
+        margin-left: 40px
+      &__job
+        @include userBlock
+        color: #727E8E
+    &__photo
+      margin-left: 16px
+    &__down-btn
+      @include btn
+
+.event-calendar-and-list-and-boxes
+  display: flex
+  position: relative
+.reg-questions
+  width: 100%
+  background: #F7F8FC
+  h1
+    font-size: 24px
+    color: #202531
+    text-align: center
+    margin: 24px
+    font-weight: 500
+  form
+    .form-row
+      display: flex
+      justify-content: center
+      input[type="text"]
+        width: 80%
+        outline: none
+        border: none
+        border-bottom: 1px solid #E9ECF5
+        padding: 12px 0 12px 14px
+        color: #727E8E
+        font-size: 13px
+      input[type="submit"]
+        width: 20%
+        margin-top: 20px
+        background-color: #C90113
+        border-radius: 50px
+        outline: none
+        border: none
+        color: #F2F2F2
+        font-size: 16px
+        padding: 6px 24px
+        cursor: pointer
+        transition: ease-in .5s
+        &:disabled
+          background-color: gray
+
+.ad-boxes
+  padding: 24px 0 0 19px
+  &__small
+    width: 280px
+    height: 143px
+    background-color: #F7F8FC
+    border: 1px solid #E9ECF5
+    border-radius: 4px
+    text-align: center
+    padding-top: 46px
+    margin-bottom: 16px
+    &__title
+      font-size: 18px
+      color: #3F4551
+    &__descr
+      color: #727E8E
+  &__big
+    height: 345px
+    padding-top: 147px
+

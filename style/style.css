@@ -1,0 +1,164 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 64px;
+  background: #202531;
+}
+.sidebar__circle {
+  width: 40px;
+  margin: 16px auto;
+  height: 40px;
+  background-color: #3F4551;
+  border-radius: 100%;
+}
+.sidebar__circle button {
+  border: none;
+  background: transparent;
+}
+.sidebar__circle button span {
+  display: block;
+  margin: 12px auto;
+  color: #949DA8;
+  font-size: 11px;
+}
+.sidebar__circle button img {
+  display: block;
+  margin: 8px 2px;
+}
+
+.right-content {
+  position: absolute;
+  left: 64px;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  padding: 24px 0 24px 236px;
+  border-bottom: 1px solid #E9ECF5;
+  align-items: center;
+}
+.header__block {
+  display: flex;
+  align-items: center;
+}
+.header__block__title {
+  color: #202531;
+  font-size: 13px;
+  text-align: center;
+  margin-left: 13px;
+}
+.header__block__icon {
+  margin-left: 25px;
+}
+.header__notification-icon {
+  margin: 0 35px 0 316px;
+}
+.header__vert-border {
+  height: 32px;
+  width: 1px;
+  background-color: #E9ECF5;
+}
+.header__user {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.header__user__descr__name {
+  text-align: right;
+  font-size: 13px;
+  color: #2d2d2d;
+  margin-left: 40px;
+}
+.header__user__descr__job {
+  text-align: right;
+  font-size: 13px;
+  color: #2d2d2d;
+  color: #727E8E;
+}
+.header__user__photo {
+  margin-left: 16px;
+}
+.header__user__down-btn {
+  border: none;
+  background: transparent;
+}
+
+.event-calendar-and-list-and-boxes {
+  display: flex;
+  position: relative;
+}
+
+.reg-questions {
+  width: 100%;
+  background: #F7F8FC;
+}
+.reg-questions h1 {
+  font-size: 24px;
+  color: #202531;
+  text-align: center;
+  margin: 24px;
+  font-weight: 500;
+}
+.reg-questions form .form-row {
+  display: flex;
+  justify-content: center;
+}
+.reg-questions form .form-row input[type=text] {
+  width: 80%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #E9ECF5;
+  padding: 12px 0 12px 14px;
+  color: #727E8E;
+  font-size: 13px;
+}
+.reg-questions form .form-row input[type=submit] {
+  width: 20%;
+  margin-top: 20px;
+  background-color: #C90113;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  color: #F2F2F2;
+  font-size: 16px;
+  padding: 6px 24px;
+  cursor: pointer;
+  transition: ease-in 0.5s;
+}
+.reg-questions form .form-row input[type=submit]:disabled {
+  background-color: gray;
+}
+
+.ad-boxes {
+  padding: 24px 0 0 19px;
+}
+.ad-boxes__small {
+  width: 280px;
+  height: 143px;
+  background-color: #F7F8FC;
+  border: 1px solid #E9ECF5;
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 46px;
+  margin-bottom: 16px;
+}
+.ad-boxes__small__title {
+  font-size: 18px;
+  color: #3F4551;
+}
+.ad-boxes__small__descr {
+  color: #727E8E;
+}
+.ad-boxes__big {
+  height: 345px;
+  padding-top: 147px;
+}
+
+/*# sourceMappingURL=style.css.map */
